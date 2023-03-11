@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center;">
+    <h1>Online Word Counter</h1>
+
+    <p>Type your text in the field below:</p>
+    <textarea id="txtarea" oninput="wordCount()+characterCount()+sentenceCount()" rows="10" cols="60" placeholder="Enter text ....."></textarea> <br><br>
+
+    <label>Total Character Count:</label> 
+    <label id="showCharacterCount"></label><br><br>
+
+    <label>Total Word Count:</label> 
+    <label id="showWordCount"></label><br><br>
+    
+    <label>Total Sentence Count:</label> 
+    <label id="showSentenceCount"></label>
+
+   
+
+    <script src="my.js"></script>
+
+  </body>
+</html>
